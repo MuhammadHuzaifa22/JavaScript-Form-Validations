@@ -1,0 +1,33 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./sd.jpg');
+    background-size: cover;
+}
+.form_div{
+    margin: 5% 38%;
+    
+}
+input{
+    width: 100%;
+    margin-top: 2%;
+    height: 8vh;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 1% 7%;
+    text-align: center;
+    box-shadow:2px 2px blue;
+}
+button{
+  padding: 10px 10px;
+font-weight: bolder;
+margin-left: 38%;
+margin-top: 4%;
+background: yellow;
+border-radius: 10px;
+border: 2px solid rgba(0, 0, 255, 0.822);
+}
