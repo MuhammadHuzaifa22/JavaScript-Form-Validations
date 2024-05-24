@@ -8,8 +8,10 @@ body{
     background-size: cover;
 }
 .form_div{
-    margin: 5% 38%;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 input{
     width: 100%;
@@ -25,7 +27,8 @@ input{
 button{
   padding: 10px 10px;
 font-weight: bolder;
-margin-left: 38%;
+margin-left: 47%;
+display: flex;
 margin-top: 4%;
 background: yellow;
 border-radius: 10px;
