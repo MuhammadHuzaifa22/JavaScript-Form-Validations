@@ -11,12 +11,19 @@
     ;margin-top: 3%;">Js Form Validations</h1>
 <div class="form_div">
     <form id="form">
-        <input type="text" placeholder="Please enter your name eg:Huzaifa" id="username">
-        <input type="text" placeholder="Please enter your email eg:Huzaifa123@gmail.com" id="email">
-        <input type="password" placeholder="Please enter your password eg:Huzaifa1234321" id="password">
-        <input type="text" placeholder="Please enter your cnic here" id="cnic"><br>
-        <button type="submit">Submit</button>
+        <input placeholder="*NAME" id="username">
+        <input  placeholder="*EMAIL" id="email">
+        <input  placeholder="*PASSOWRD" id="password">
+        <input type="text" placeholder="*CNIC" id="cnic"><br>
+        <div class="button_div">
+
+            <button type="submit">Submit</button>
+        </div>
         </form>
+</div>
+  
+<div style="text-align: center;">
+ <h3 id="values"></h3>
 </div>
     <script src="app.js"></script>
 </body>
